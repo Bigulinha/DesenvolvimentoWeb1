@@ -1,0 +1,22 @@
+﻿.divmae{
+
+    width:100%;
+    display:flex
+    
+}
+.div25{
+
+    width:25%;
+
+}
+.div75{
+
+    width:75%
+
+}
+ul {
+    list-style-type:none;
+}
+.hrvertical {
+    margin-right: 20px;
+}
