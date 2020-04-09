@@ -1,5 +1,5 @@
 ﻿.divmae{
-
+    background-color: rgb(234, 227, 217);
     width:100%;
     display:flex
     
@@ -7,6 +7,8 @@
 .div25{
 
     width:25%;
+    border-radius: 50%;
+    text-align: center;
 
 }
 .div75{
@@ -20,18 +22,22 @@ ul {
 .hrvertical {
     margin-right: 20px;
 }
+img    {
+    border-radius: 50%;
+}
+
 button {
-    background-color: rgb(41, 178, 0);
+    background-color: rgba(212, 206, 197, 0.801);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     margin-right: 5px;
     width: 100px;
     height: 40px;
     border-radius: 6px;
-    border: 1px solid darkblue;
+    border: 1px solid rgb(41, 178, 0);
     box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,1);
     text-shadow: 0px -1px 0px rgba(000,000,000,0.7), 0px 1px 0px rgba(255,255,255,0.3);
-    color: ghostwhite;
+    color: rgb(35, 143, 2);
     margin-top: -3px;
 }
 nav {
@@ -49,14 +55,13 @@ header {
     height:14%;
 }
 body {
-    background-color: rgb(7, 95, 86);
-    color: ghostwhite;
+    background-color: rgb(234, 227, 217);
+    color: rgb(7, 95, 86);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 footer {
-    margin: 30px;
-    padding-top: 20px;
+    margin: 9px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
