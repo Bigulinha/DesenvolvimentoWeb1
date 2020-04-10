@@ -1,0 +1,38 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 80%;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    background-color: rgb(7, 95, 86);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*padding: 50px 30px 50px 30px;  /* 1°: top  direita baixo esquerda  */
+   
+    height: 14%;
+}
+.divmae {
+    width: 100%;
+    display: flex
+}
+
+.div25 {
+    width: 25%;
+    border-radius: 50%;
+}
+fieldset{
+    border: none;
+}
+#topo {
+    text-align: left;
+    color: ghostwhite;
+    margin: 10px;
+    margin-left: 29px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/Contato.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1 id="topo">Desenvolvimento Web I</h1>
+    </header>
+
+    <nav>
+        <hr />
+        <div class="div10">
+            <button type="button"
+                    onclick="location.href='../html/trabalho_Web.html';">
+                Index
+            </button>
+
+            <button type="button"
+                    onclick="location.href='../html/Aluno1.html';">
+                Aluno 1
+            </button>
+
+            <button type="button"
+                    onclick="location.href='../html/Aluno2.html';">
+                Aluno 2
+            </button>
+
+            <button type="button"
+                    onclick="location.href='../html/Aluno3.html';">
+                Aluno 3
+            </button>
+
+
+            <button type="button"
+                    onclick="location.href='Colocar dentro das aspas simples o link da aba do aluno refente a mesma.';">
+                Contato
+            </button>
+        </div>
+        <hr />
+    </nav>
+
+    <div class="divmae">
+        <div class="div25">
+            <fieldset>
+                <legend><strong>Formulário de Contato</strong></legend>
+                <label for="nome"><strong>Nome:</strong></label><br>
+                <input type="text" id="nome" name="nome"><br>
+
+                <label for="email"><strong>E-mail:</strong></label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="telefone"><strong>Telefone:</strong></label><br />
+                <input type="text" id="telefone" name="telefone" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" required><br />
+                <label for="prioridade"><strong>Prioridade:</strong></label><br />
+                <select id="prioridade">
+                    <option value="alta">Alta</option>
+                    <option value="media">Média</option>
+                    <option value="baixa">Baixa</option>
+                </select>
+                <br />
+                <label for="mensagem"><strong>Mensagem:</strong></label><br />
+                <textarea id="mensagem" rows="5" cols="50">
+
+                    </textarea>
+
+
+            </fieldset>
+            <!-- Colocar no fieldset border:none -->
+        </div>
+
+
+    </div>
+    <hr />
+    <footer>
+        &copy; Desenvolvido por Lucas Raulin & Bruno Vasquez - 2020
+    </footer>
+
+</body>
+</html>
