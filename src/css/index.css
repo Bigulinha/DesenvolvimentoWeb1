@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(7, 95, 86);
+    color: ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dados {
+    margin: 1%;
+    flex: 1;    
+    font-size: 1vw;
+}
+
+button {
+    background-color: rgb(41, 178, 0);
+    color: ghostwhite;
+}
+

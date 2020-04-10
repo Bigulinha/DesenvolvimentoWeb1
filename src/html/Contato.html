@@ -3,50 +3,48 @@
 <html>
 <head>
     <title>Contato</title>
-    <link rel="stylesheet" href="../css/Contato.css">
-
+    <link rel="stylesheet" href="../css/geral.css" />
+    <link rel="stylesheet" href="../css/outras.css" />
 </head>
 
 <body>
 
     <header>
-        <h1 id="topo">Desenvolvimento Web I</h1>
+        <h1 class="header-title">Desenvolvimento Web I</h1>
+        <nav class="top-bottom-br">
+            <hr class="invisivel" />
+            <div class="top-bottom-br">
+                <button type="button"
+                        onclick="location.href='../html/index.html';">
+                    Index
+                </button>
+
+                <button type="button"
+                        onclick="location.href='../html/Aluno1.html';">
+                    Aluno 1
+                </button>
+
+                <button type="button"
+                        onclick="location.href='../html/Aluno2.html';">
+                    Aluno 2
+                </button>
+
+                <button type="button"
+                        onclick="location.href='../html/Aluno3.html';">
+                    Aluno 3
+                </button>
+
+                <button type="button"
+                        onclick="location.href='../html/Contato.html';">
+                    Contato
+                </button>
+            </div>
+            <hr />
+        </nav>
     </header>
 
-    <nav>
-        <hr />
-        <div class="div10">
-            <button type="button"
-                    onclick="location.href='../html/trabalho_Web.html';">
-                Index
-            </button>
-
-            <button type="button"
-                    onclick="location.href='../html/Aluno1.html';">
-                Aluno 1
-            </button>
-
-            <button type="button"
-                    onclick="location.href='../html/Aluno2.html';">
-                Aluno 2
-            </button>
-
-            <button type="button"
-                    onclick="location.href='../html/Aluno3.html';">
-                Aluno 3
-            </button>
-
-
-            <button type="button"
-                    onclick="location.href='Colocar dentro das aspas simples o link da aba do aluno refente a mesma.';">
-                Contato
-            </button>
-        </div>
-        <hr />
-    </nav>
-
-    <div class="divmae">
-        <div class="div25">
+    <div class="body-content">
+        <div class="largura-25">
             <fieldset>
                 <legend><strong>Formulário de Contato</strong></legend>
                 <label for="nome"><strong>Nome:</strong></label><br>
@@ -66,19 +64,14 @@
                 <label for="mensagem"><strong>Mensagem:</strong></label><br />
                 <textarea id="mensagem" rows="5" cols="50">
 
-                    </textarea>
-
-
+                </textarea>
             </fieldset>
-            <!-- Colocar no fieldset border:none -->
         </div>
-
-
     </div>
-    <hr />
-    <footer>
+
+    <footer class="footer">
+        <hr />
         &copy; Desenvolvido por Lucas Raulin & Bruno Vasquez - 2020
     </footer>
-
 </body>
 </html>
