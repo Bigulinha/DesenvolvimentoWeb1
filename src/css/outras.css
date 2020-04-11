@@ -8,3 +8,10 @@ button {
     background-color: rgb(234, 227, 217);
     color: rgb(41, 178, 0);
 }
+.ensino {
+    color: rgb(41, 178, 0);
+}
+.ano-educa {
+    font-style: italic;
+    color: grey;
+}
