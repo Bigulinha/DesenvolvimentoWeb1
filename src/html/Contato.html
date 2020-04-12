@@ -5,6 +5,8 @@
     <title>Contato</title>
     <link rel="stylesheet" href="../css/geral.css" />
     <link rel="stylesheet" href="../css/outras.css" />
+    <script src="../javascript/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="../javascript/janelacontato.js"></script>
 </head>
 
 <body>
@@ -61,7 +63,11 @@
                 </select>
                 <br />
                 <label for="mensagem"><strong>Mensagem:</strong></label><br />
-                <textarea id="mensagem" rows="5" cols="50" class="box-larg-font"></textarea>
+                <textarea id="mensagem" cols="50" class="box-larg-font textarea"></textarea>
+                <button type="button" id="botaoenviar"
+                        onclick="janela_contato()">
+                    Enviar
+                </button>
             </fieldset>
         </div>
     </div>
@@ -70,5 +76,10 @@
         <hr />
         &copy; Desenvolvido por Lucas Raulin & Bruno Vasquez - 2020
     </footer>
+
+
+
+
 </body>
 </html>
+

@@ -16,5 +16,11 @@ button {
     color: grey;
 }
 .textarea {
-    height: 10vh;
+    height: 14vh;
+}
+#botaoenviar {
+    background-color: rgb(41, 178, 0);
+    color: ghostwhite;
+    width: 100%;
+    border-radius: 5px;
 }
