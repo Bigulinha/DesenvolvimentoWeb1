@@ -14,34 +14,44 @@
     <header>
         <h1 class="header-title">Desenvolvimento Web I</h1>
         <nav class="top-bottom-br">
-            <hr class="invisivel" />
-            <div class="top-bottom-br">
-                <button type="button"
-                        onclick="location.href='../html/index.html';">
-                    Index
-                </button>
+            <hr class="invisivel hrnavfoot" />
+            <ul class="displayhorizontal">
+                <li class="marginleft">
+                    <button type="button"
+                            onclick="location.href='../html/index.html';">
+                        Index
+                    </button>
+                </li>
 
-                <button type="button"
-                        onclick="location.href='../html/Aluno1.html';">
-                    Aluno 1
-                </button>
+                <li class="marginleft">
+                    <button type="button"
+                            onclick="location.href='../html/Aluno1.html';">
+                        Aluno 1
+                    </button>
+                </li>
 
-                <button type="button"
-                        onclick="location.href='../html/Aluno2.html';">
-                    Aluno 2
-                </button>
+                <li class="marginleft">
+                    <button type="button"
+                            onclick="location.href='../html/Aluno2.html';">
+                        Aluno 2
+                    </button>
+                </li>
 
-                <button type="button"
-                        onclick="location.href='../html/Aluno3.html';">
-                    Aluno 3
-                </button>
+                <li class="marginleft">
+                    <button type="button"
+                            onclick="location.href='../html/Aluno3.html';">
+                        Aluno 3
+                    </button>
+                </li>
 
-                <button type="button"
-                        onclick="location.href='../html/Contato.html';">
-                    Contato
-                </button>
-            </div>
-            <hr />
+                <li class="marginleft">
+                    <button type="button"
+                            onclick="location.href='../html/Contato.html';">
+                        Contato
+                    </button>
+                </li>
+            </ul>
+            <hr class="hrnavfoot" />
         </nav>
     </header>
 
@@ -50,20 +60,21 @@
             <fieldset>
                 <legend><strong>Formulário de Contato</strong></legend>
                 <label for="nome"><strong>Nome:</strong></label><br>
-                <input type="text" id="nome" name="nome" class="box-larg-font"><br>
+                <input type="text" id="nome" name="nome" class="box-larg-font" placeholder="Nome"><br>
                 <label for="email"><strong>E-mail:</strong></label><br>
-                <input type="email" id="email" name="email" class="box-larg-font"><br>
+                <input type="email" id="email" name="email" class="box-larg-font" placeholder="E-mail ex.: email@exemplo.com"><br>
                 <label for="telefone"><strong>Telefone:</strong></label><br />
-                <input type="text" id="telefone" name="telefone" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" required class="box-larg-font"><br />
+                <input type="text" id="telefone" name="telefone" class="box-larg-font" placeholder="Telefone ex.: (XX) X XXXX-XXXX "><br />
                 <label for="prioridade"><strong>Prioridade:</strong></label><br />
                 <select id="prioridade" class="box-larg-font dropdown-altura">
+                    <option value="">Selecione a prioridade</option>
                     <option value="alta">Alta</option>
                     <option value="media">Média</option>
                     <option value="baixa">Baixa</option>
                 </select>
                 <br />
                 <label for="mensagem"><strong>Mensagem:</strong></label><br />
-                <textarea id="mensagem" cols="50" class="box-larg-font textarea"></textarea>
+                <textarea id="mensagem" cols="50" class="box-larg-font textarea" placeholder="Mensagem"></textarea>
                 <button type="button" id="botaoenviar"
                         onclick="janela_contato()">
                     Enviar
@@ -73,7 +84,7 @@
     </div>
 
     <footer class="footer">
-        <hr />
+        <hr class="hrnavfoot" />
         &copy; Desenvolvido por Lucas Raulin & Bruno Vasquez - 2020
     </footer>
 

@@ -47,6 +47,10 @@ button {
     border: 2px solid rgb(41, 178, 0);
 }
 
+button:hover {
+    background-color: rgb(7, 95, 86);
+}
+
 .top-bottom-br {
     margin-bottom: 1%;
     margin-top: 1%;
@@ -54,7 +58,7 @@ button {
 
 .largura-25 {
     width: 25%;
-    margin-left:0.3vh;
+    margin-left: 0.3vh;
 }
 
 .largura-75 {
@@ -63,6 +67,7 @@ button {
 
 .hrvertical {
     margin-right: 1%;
+    border-color: rgb(41, 178, 0);
 }
 
 fieldset {
@@ -71,7 +76,7 @@ fieldset {
 
 ul {
     list-style-type: none;
-    font-size:0.9vw;
+    font-size: 0.9vw;
 }
 
 img {
@@ -80,9 +85,9 @@ img {
     height: auto;
 }
 
-.center-content{
-    text-align:center;
-    align-content:center;
+.center-content {
+    text-align: center;
+    align-content: center;
 }
 
 .altura-10 {
@@ -96,9 +101,11 @@ img {
 .altura-50 {
     height: 50%
 }
+
 .invisivel {
     visibility: hidden;
 }
+
 .box-larg-font {
     width: 100%;
     font-size: 1vw;
@@ -106,18 +113,34 @@ img {
     border-radius: 5px;
     border: solid 2px darkgray;
 }
-.dropdown-altura{
+
+.dropdown-altura {
     height: 2vw;
 }
-legend{
-    font-size:1.5vw;
+
+legend {
+    font-size: 1.5vw;
 }
+
 input:focus, textarea:focus, select:focus {
     outline: none;
     border: 2px solid rgb(41, 178, 0);
     border-radius: 5px;
 }
+
 .experiencia {
     font-size: 0.8vw;
     line-height: 1.6;
+}
+
+.displayhorizontal{
+    display: inline-flex;
+}
+
+.marginleft{
+    margin-left: 1vh;
+}
+
+.hrnavfoot {
+    border: 0.1vh solid rgb(41, 178, 0)
 }
