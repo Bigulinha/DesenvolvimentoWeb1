@@ -144,3 +144,7 @@ input:focus, textarea:focus, select:focus {
 .hrnavfoot {
     border: 0.1vh solid rgb(41, 178, 0)
 }
+
+.removepadding{
+    padding: 0;
+}
